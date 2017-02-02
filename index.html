@@ -4,33 +4,45 @@
 <head>
     <meta charset="utf-8">
     <title>CV Factory</title>
-    <link rel="stylesheet" href="CVFactory.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" title="no title">
 </head>
 
 <body>
     <header>
-        <h1>CV FACTORY</h1>
-
+            <h1>
+        CV Factory
+      </h1>
     </header>
     <section>
+    <div class="add">
+      <p>
+        Please enter your skills :
+      </p>
+        <input type="text" name="addInput" id="inputSkills">
+        <button type="button" name="button" id="addSkills">
+          <i class="fa fa-superpowers" aria-hidden="true">
+          </i>
+        </button>
+    </div>
+    <div class="list">
+        <ul id="listContainer">
+            <li><button type="button" name="remove">
 
+                </button>
+            </li>
+            <li><button type="button" name="remove">
 
-        <div class="add">
-            <input type="text" name="addinput">
-            <button type="button" name="add">Confirm</button>
-        </div>
+                </button>
+            </li>
+            <li><button type="button" name="add">
 
-        <div class="list">
-            <ul>
-                <li> <button type="button" name="remove"><i class="fa fa-trash" aria-hidden="true"></i></button> Css </li>
-                <li> <button type="button" name="remove"><i class="fa fa-times" aria-hidden="true"></i>
-</button> JavaScript </li>
-                <li> <button type="button" name="remove"></button> Html5 </li>
-            </ul>
-        </div>
+                </button>
+            </li>
+        </ul>
+
+    </div>
     </section>
 </body>
-
+<script src="index.js" charset="utf-8"></script>
 </html>
